@@ -31,7 +31,7 @@ if [ -f "${BUILD_DIR}/composer.json" ]; then
     fi
     COMPOSER_PATH="$(which composer)"
     (
-     cd ${BUILD_DIR} && $PHP $COMPOSER_PATH clearcache \
+     cd ${BUILD_DIR} && $PHP $COMPOSER_PATH   \
         && $PHP $COMPOSER_PATH install $ADDITIONS \
         --ignore-platform-reqs \
         --no-interaction \
