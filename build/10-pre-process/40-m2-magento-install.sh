@@ -27,4 +27,5 @@ ${MAGENTO_CMD} setup:install \
     --db-name="build_db" \
     --db-user="root" \
     --db-password="root" \
-    --db-host="127.0.0.1"
+    --db-host="127.0.0.1" \
+    --disable-modules='Magento_Elasticsearch,Magento_InventoryElasticsearch,Magento_Elasticsearch6,Magento_Elasticsearch7'
