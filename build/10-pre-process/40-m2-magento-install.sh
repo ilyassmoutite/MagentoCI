@@ -25,6 +25,6 @@ ${MAGENTO_CMD} setup:install \
     --admin-user="ilyass" \
     --admin-password="admin11" \
     --db-name="build_db" \
-    --db-user="login-user" \
+    --db-user="root" \
     --db-password="root" \
     --db-host="127.0.0.1"
