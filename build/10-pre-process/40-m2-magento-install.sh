@@ -22,9 +22,9 @@ ${MAGENTO_CMD} setup:install \
     --admin-firstname="Magento" \
     --admin-lastname="Builder" \
     --admin-email="joseph@swiftotter.com" \
-    --admin-user="${MAGE_ADMIN_USER}" \
-    --admin-password="${MAGE_ADMIN_PASSWORD}" \
+    --admin-user="ilyass" \
+    --admin-password="admin11" \
     --db-name="build_db" \
     --db-user="login-user" \
-    --db-password="very-secret-password" \
-    --db-host="${MYSQL_HOST}"
+    --db-password="root" \
+    --db-host="127.0.0.1"
