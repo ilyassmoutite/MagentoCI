@@ -7,10 +7,10 @@ if [ -z ${LINK_DIR+x} ] || [ -z ${RELEASE_DIR+x} ] || [ -z ${OUTPUT_DIR+x} ]; th
     exit
 fi
 
-if [ ! -f "${LINK_DIR}/local.xml" ]; then
-    printf "You must have local.xml created!\n"
-    exit 1
-fi
+#if [ ! -f "${LINK_DIR}/local.xml" ]; then
+#    printf "You must have local.xml created!\n"
+ #   exit 1
+#fi
 
 if [ ! -d "${LINK_DIR}/media" ]; then
     printf "You must have /media created!\n"
